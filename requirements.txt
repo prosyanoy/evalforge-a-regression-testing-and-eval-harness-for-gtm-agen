@@ -1,0 +1,9 @@
+mlflow>=3.0,<4
+scikit-learn>=1.4
+numpy
+pyyaml
+matplotlib
+fastapi
+uvicorn
+httpx
+pytest

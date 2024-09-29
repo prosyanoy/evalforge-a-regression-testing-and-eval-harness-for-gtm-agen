@@ -1,0 +1,12 @@
+# Optional: a standalone MLflow tracking server.
+#   docker compose up -d mlflow
+#   export MLFLOW_TRACKING_URI=http://localhost:5000
+# Without it, EvalForge logs to an embedded SQLite store (data/mlflow.db).
+services:
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:v3.17.2
+    command: mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri sqlite:////mlflow/mlflow.db --default-artifact-root /mlflow/artifacts
+    ports: ["5000:5000"]
+    volumes: ["mlflow-data:/mlflow"]
+volumes:
+  mlflow-data:

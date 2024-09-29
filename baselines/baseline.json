@@ -1,0 +1,278 @@
+{
+  "cases": {
+    "nxt-01": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "nxt-02": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "nxt-03": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "nxt-04": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "nxt-05": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "nxt-06": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "nxt-07": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "nxt-08": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "nxt-09": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "nxt-10": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "nxt-11": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "nxt-12": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "nxt-13": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "nxt-14": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "ref-01": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 3
+    },
+    "ref-02": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 3
+    },
+    "ref-03": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 3
+    },
+    "ref-04": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 3
+    },
+    "ref-05": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 3
+    },
+    "ref-06": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 3
+    },
+    "ref-07": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 3
+    },
+    "ref-08": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 3
+    },
+    "ref-09": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "ref-10": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "sum-01": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 1
+    },
+    "sum-02": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 1
+    },
+    "sum-03": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 1
+    },
+    "sum-04": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 1
+    },
+    "sum-05": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 1
+    },
+    "sum-06": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 1
+    },
+    "sum-07": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 1
+    },
+    "sum-08": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 1
+    },
+    "sum-09": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 1
+    },
+    "sum-10": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 1
+    },
+    "sum-11": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 1
+    },
+    "sum-12": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 1
+    },
+    "sum-13": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 1
+    },
+    "sum-14": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 1
+    },
+    "tri-01": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "tri-02": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "tri-03": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 3
+    },
+    "tri-04": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "tri-05": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 1
+    },
+    "tri-06": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 1
+    },
+    "tri-07": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 3
+    },
+    "tri-08": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 3
+    },
+    "tri-09": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 1
+    },
+    "tri-10": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "tri-11": {
+      "passed": true,
+      "score": 1.0,
+      "severity": 2
+    },
+    "tri-12": {
+      "passed": false,
+      "score": 0.5,
+      "severity": 3
+    }
+  },
+  "created": "2026-10-31T14:33:05.673381+00:00",
+  "judge": "rule",
+  "metrics": {
+    "cost_usd_total": 0.005641,
+    "critical_failures": 1,
+    "judge_pass_rate": 0.98,
+    "judge_score": 0.995,
+    "latency_p50_ms": 0.06335,
+    "latency_p95_ms": 0.1451,
+    "mean_score": 0.99,
+    "n_cases": 50,
+    "pass_rate": 0.98,
+    "pass_rate.next_steps": 1.0,
+    "pass_rate.refusal": 1.0,
+    "pass_rate.summarize": 1.0,
+    "pass_rate.triage": 0.916667,
+    "score.next_steps": 1.0,
+    "score.refusal": 1.0,
+    "score.summarize": 1.0,
+    "score.triage": 0.958333,
+    "tokens_in_total": 3626,
+    "tokens_out_total": 2552
+  },
+  "prompt_version": "v3"
+}

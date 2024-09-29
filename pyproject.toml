@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evalforge"
+version = "0.1.0"
+description = "Regression-testing and eval harness for GTM (sales/support) agents"
+requires-python = ">=3.11"
+dependencies = [
+  "mlflow>=3.0,<4", "scikit-learn>=1.4", "numpy", "pyyaml", "matplotlib",
+  "fastapi", "uvicorn", "httpx",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+evalforge = "evalforge.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["evalforge*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::FutureWarning"]

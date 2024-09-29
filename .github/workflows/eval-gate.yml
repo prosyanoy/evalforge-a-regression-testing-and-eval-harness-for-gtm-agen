@@ -1,0 +1,38 @@
+name: eval-gate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    env:
+      EVALFORGE_JUDGE: rule        # deterministic judge in CI; no Ollama / secrets needed
+      PROMPT_VERSION: ${{ vars.PROMPT_VERSION || 'v3' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Unit tests
+        run: python -m pytest -q
+      - name: Trend across prompt versions (v1 -> v3)
+        run: python -m evalforge demo
+      - name: Evaluate candidate agent
+        run: python -m evalforge run --prompt-version "$PROMPT_VERSION"
+      - name: Regression gate (fails the build on quality drop)
+        run: python -m evalforge gate
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: evalforge-reports
+          path: |
+            reports/latest.md
+            reports/gate.md
+            reports/trend.png
+            reports/current.json
